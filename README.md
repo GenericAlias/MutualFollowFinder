@@ -2,6 +2,15 @@
 
 MutualFollowFinder is a python console application that takes two Twitter handles as command line arguments and prints the users that they are both following on Twitter. Created using the python-twitter api. Twitter api rate limits prevent the application from being used too much within a certain timeframe, and limit the application to working with two twitter handles at a time.
 
-Usage example:
+<h1>Prerequisites</h2>
+<ul>
+  <li>Install python-twitter</li>
+  ```$ pip install python-twitter```
+  <li>Go to apps.twitter.com. Create a new application using a twitter account and use the given keys to fill in the CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, and ACCESS_TOKEN_SECRET variable to get permissions to use the application</li>
+  
 
-<h3>python mutualfollows.py porterrobinson anamanaguchi</h3>
+<h1<Usage example</h1>
+
+```
+$ python mutualfollows.py porterrobinson anamanaguchi
+```
