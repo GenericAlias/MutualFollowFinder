@@ -4,10 +4,10 @@ MutualFollowFinder is a python console application that takes two Twitter handle
 
 <h2>Prerequisites</h2>
 <ul>
-  <li>Install python-twitter</li>
-```
-$ pip install python-twitter
-```
+  <li>Install python-twitter:</li>
+  ```
+  $ pip install python-twitter
+  ```
   <li>Go to apps.twitter.com. Create a new application using a twitter account and use the given keys to fill in the CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, and ACCESS_TOKEN_SECRET variable to get permissions to use the application</li>
 </ul>
   
